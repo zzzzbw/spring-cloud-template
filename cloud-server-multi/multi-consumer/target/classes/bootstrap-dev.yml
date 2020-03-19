@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: multi-consumer
+      profile: dev
