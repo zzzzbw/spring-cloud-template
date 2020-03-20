@@ -6,6 +6,13 @@ package cn.zzzbw.util;
  */
 public class SystemHelp {
     /**
+     * 当前系统环境
+     */
+    public static String env() {
+        return System.getProperty("env");
+    }
+
+    /**
      * 判断当前操作系统是否windows
      */
     public static boolean isWindows() {
@@ -23,6 +30,6 @@ public class SystemHelp {
      * 判定当前环境
      */
     public static boolean isDev() {
-        return isWindows() || isMac() || "dev".equals(System.getProperty("env"));
+        return isWindows() || isMac() || "dev".equals(env());
     }
 }
