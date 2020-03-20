@@ -58,6 +58,11 @@
             <artifactId>multi-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>cn.zzzzbw</groupId>
+            <artifactId>multi-autoconfigure-starter</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>

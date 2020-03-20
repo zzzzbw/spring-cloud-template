@@ -6,3 +6,6 @@ spring:
       uri: http://localhost:8888
       name: multi-consumer
       profile: dev
+swagger:
+  enable: true
+  basePackage: cn.zzzzbw.consumer.controller

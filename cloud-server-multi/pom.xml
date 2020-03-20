@@ -15,6 +15,7 @@
         <module>multi-consumer</module>
         <module>multi-provider</module>
         <module>multi-common</module>
+        <module>multi-autoconfigure-starter</module>
     </modules>
 
     <properties>
