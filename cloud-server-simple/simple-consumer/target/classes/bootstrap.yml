@@ -1,4 +1,0 @@
-# 默认yml
-spring:
-  profiles:
-    active: dev
