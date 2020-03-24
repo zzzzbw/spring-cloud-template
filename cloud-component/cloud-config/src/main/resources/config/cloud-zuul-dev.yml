@@ -21,17 +21,17 @@ eureka:
 zuul:
   routes:
     # 路由名称，随意
-    multi-consumer:
+    consumer-advance:
       # 路由地址
-      path: /multi/consumer/**
+      path: /consumer/advance/**
       # 该路由地址对应的服务名称
-      serviceId: multi-consumer
-    multi-provider:
-      path: /multi/provider/**
-      serviceId: multi-provider
-    simple-consumer:
-      path: /simple/consumer/**
-      serviceId: simple-consumer
-    simple-provider:
-      path: /simple/provider/**
-      serviceId: simple-provider
+      serviceId: consumer-advance
+    provider-advance:
+      path: /provider/advance/**
+      serviceId: provider-advance
+    consumer-simple:
+      path: /consumer/simple/**
+      serviceId: consumer-simple
+    provider-simple:
+      path: /provider/simple/**
+      serviceId: provider-simple

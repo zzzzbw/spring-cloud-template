@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: consumer-advance
+      profile: dev
+swagger:
+  enable: true
+  basePackage: cn.zzzzbw.server.consumer.controller

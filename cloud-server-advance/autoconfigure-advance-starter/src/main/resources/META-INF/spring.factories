@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cn.zzzzbw.server.autoconfigure.starter.CacheComponentAutoConfiguration,\
+  cn.zzzzbw.server.autoconfigure.starter.SwaggerAutoConfiguration

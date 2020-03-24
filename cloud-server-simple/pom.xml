@@ -13,8 +13,8 @@
     <artifactId>cloud-server-simple</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>simple-consumer</module>
-        <module>simple-provider</module>
+        <module>consumer-simple</module>
+        <module>provider-simple</module>
     </modules>
 
 </project>

@@ -5,7 +5,7 @@
     <modules>
         <module>cloud-component</module>
         <module>cloud-server-simple</module>
-        <module>cloud-server-multi</module>
+        <module>cloud-server-advance</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
