@@ -6,8 +6,8 @@ JVMARGS=" -Dfile.encoding=UTF-8 "
 
 ENV=$2
 if [ ! -n "$2" ] ;then
-    echo "you have not input a env!"
-    exit 1
+    echo "you have not input a env! use dev!!!!"
+    ENV=dev
 fi
 
 
