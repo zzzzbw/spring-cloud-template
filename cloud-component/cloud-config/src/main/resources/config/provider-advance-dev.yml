@@ -10,6 +10,11 @@ spring:
     admin:
       client:
         url: http://localhost:9004
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cloudtemplate?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
 
 eureka:
   client:
@@ -17,3 +22,4 @@ eureka:
       # Eureka注册中心连接地址
       # 如果注册中心地址配置的域名，这里使用 http://域名/eureka/ 格式
       defaultZone: http://localhost:8761/eureka/
+
