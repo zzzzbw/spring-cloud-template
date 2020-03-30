@@ -1,6 +1,6 @@
 package cn.zzzzbw.server.provider.bootstrap.service.impl;
 
-import cn.zzzzbw.server.common.component.CacheComponent;
+import cn.zzzzbw.server.autoconfigure.starter.component.CacheComponent;
 import cn.zzzzbw.server.provider.bootstrap.dao.UserMapper;
 import cn.zzzzbw.server.provider.api.entity.HelloEntity;
 import cn.zzzzbw.server.provider.bootstrap.pojo.User;

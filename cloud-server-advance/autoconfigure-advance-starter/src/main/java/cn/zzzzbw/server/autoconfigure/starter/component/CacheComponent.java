@@ -1,4 +1,4 @@
-package cn.zzzzbw.server.common.component;
+package cn.zzzzbw.server.autoconfigure.starter.component;
 
 import com.alibaba.fastjson.JSONObject;
 import lombok.RequiredArgsConstructor;
