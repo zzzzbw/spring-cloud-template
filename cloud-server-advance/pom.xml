@@ -19,7 +19,7 @@
     </modules>
 
     <properties>
-        <swagger.version>2.9.2</swagger.version>
+        <swagger.version>2.10.0</swagger.version>
         <mybatis-plus.version>3.3.1.tmp</mybatis-plus.version>
         <fastjson.version>1.2.67</fastjson.version>
     </properties>
